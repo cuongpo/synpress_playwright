@@ -17,6 +17,7 @@ export default defineConfig({
     headless: false,
   },
   // start local web server before tests
+  /*
   webServer: [
     {
       command: "yarn start:server",
@@ -25,6 +26,7 @@ export default defineConfig({
       reuseExistingServer: true,
     },
   ],
+  */
   projects: [
     {
       name: "chromium",

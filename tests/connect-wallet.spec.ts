@@ -3,7 +3,7 @@ import * as metamask from "@synthetixio/synpress/commands/metamask";
 
 test.beforeEach(async ({ page }) => {
   // baseUrl is set in playwright.config.ts
-  await page.goto("/");
+  await page.goto("https://metamask.github.io/test-dapp");
 });
 
 test("connect wallet using default metamask account", async ({ page }) => {
